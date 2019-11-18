@@ -1,12 +1,12 @@
 ---
 template: SinglePost
-title: Post Two
+title: Post T
 status: Published
 date: '2018-03-28'
 featuredImage: 'https://ucarecdn.com/57002902-e8b3-4315-9995-beb637b29128/'
 excerpt: This is an excerpt of Post Two
 categories:
-  - category: Updates
+  - category: Photography
 meta:
   description: test meta description
   title: test meta title

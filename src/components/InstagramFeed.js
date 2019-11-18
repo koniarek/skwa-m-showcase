@@ -8,7 +8,7 @@ import './InstagramFeed.css'
 
 export default class InstagramFeed extends Component {
   static defaultProps = {
-    accessToken: '1353697840.1677ed0.5a1cbfbc18f84915aa0d9a0bd02bff5a',
+    accessToken: '18150427317.1677ed0.0ccb9ad237a1450eaca13d3211ad711f',
     count: 20
   }
 
@@ -44,7 +44,7 @@ export default class InstagramFeed extends Component {
 
     if (!instaFeed) {
       typeof window !== 'undefined' &&
-        fetch(`https://instagramapi.thrivex.io/?ref=${this.props.accessToken}`)
+        fetch(`https://instagramapi.szymon_abstract_design/?ref=${this.props.accessToken}`)
           .then(res => res.json())
           .then(data => {
             instaFeed = data && data.items ? data.items : []

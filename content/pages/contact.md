@@ -1,18 +1,18 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
+title: Contact
 featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: This is the contact page subtitle.
-address: '404 James St, Burleigh Heads QLD 4220'
-phone: 0987 123 456
+subtitle: 
+address: 'Wroclaw, Poland'
+phone: +48797292821 & +48690347524
 email: example@example.com
 locations:
-  - lat: '-27.9654732'
-    lng: '153.2432449'
+  - lat: '51.107883'
+    lng: '17.038538'
     mapLink: ''
 meta:
-  description: This is a meta description.
+  description: Szymon Koniarek Web Architecture And Management - contact page.
   title: Contact Page
 ---
 

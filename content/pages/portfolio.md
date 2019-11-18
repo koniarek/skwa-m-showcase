@@ -1,9 +1,9 @@
 ---
 template: ComponentsPage
-slug: components
-title: Components Page
-featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
-subtitle: This is the components page subtitle.
+slug: portfolio
+title: Portfolio Page
+featuredImage: 'https://ucarecdn.com/83049443-01ed-4fa4-aaab-e21ae50793b7/'
+subtitle: Portfolio - front end development.
 section1: >-
   ## This is a container component
 
@@ -48,5 +48,5 @@ gallery:
     title: Yellow Ice Cream
 meta:
   description: This is a meta description.
-  title: Components Page
+  title: Portfolio Page
 ---

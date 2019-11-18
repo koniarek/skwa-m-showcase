@@ -137,9 +137,9 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/components.md'
-        label: 'Components Page'
-        name: 'components-page'
+      - file: 'content/pages/portfolio.md'
+        label: 'Portfolio Page'
+        name: 'portfolio-page'
         fields:
           - {
               label: Template,
@@ -147,7 +147,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: ComponentsPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'components' }
+          - { label: Slug, name: slug, widget: hidden, default: 'portfolio' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
